@@ -1,0 +1,50 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.input-area {
+  margin-bottom: 12px;
+}
+
+#answerInput {
+  width: 300px;
+  padding: 6px 8px;
+  font-size: 16px;
+}
+
+#message {
+  margin-bottom: 12px;
+  min-height: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.cell {
+  border: 1px solid #ccc;
+  padding: 4px 6px;
+  font-size: 14px;
+  background: #f9f9f9;
+}
+
+.answerText {
+  opacity: 0.25;
+}
+
+.answerText.correct {
+  background: #ffff51;
+  opacity: 1;
+  font-weight: bold;
+}

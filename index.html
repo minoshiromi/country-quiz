@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Country Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Country Quiz</h1>
+
+  <div class="controls">
+    <button id="startBtn">Start</button>
+    <span>Remaining: <span id="remaining">0</span></span>
+    <span class="clock" id="clock">00:00</span>
+  </div>
+
+  <div class="input-area">
+    <input type="text" id="answerInput" placeholder="Type a country name..." autocomplete="off" disabled />
+  </div>
+
+  <div id="message"></div>
+
+  <div id="answersGrid" class="grid"></div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
